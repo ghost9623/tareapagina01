@@ -1,0 +1,17 @@
+<table class="table table-dark  table-borderless table-sm  table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Jefe</th>
+        <th>Producto</th>
+    </thead>
+    <tbody *ngFor="let area of areas">
+        <tr>
+            <td>{{area.id}}</td>
+            <td>{{area.nombre}}</td>
+            <td>{{area.jefe}}</td>
+            <td>{{area.producto}}</td>
+
+        </tr>
+    </tbody>
+</table>

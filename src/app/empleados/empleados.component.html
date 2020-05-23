@@ -1,0 +1,18 @@
+<table class="table table-dark  table-borderless table-sm  table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Telefono</th>
+        <th>Direccion</th>
+        <th>Area</th>
+    </thead>
+    <tbody *ngFor="let empleado of empleados">
+        <tr>
+            <td>{{empleado.id}}</td>
+            <td>{{empleado.nombre}}</td>
+            <td>{{empleado.telefono}}</td>
+            <td>{{empleado.direccion}}</td>          
+            <td>{{empleado.area}}</td>
+        </tr>
+    </tbody>
+</table>

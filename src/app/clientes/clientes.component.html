@@ -1,0 +1,15 @@
+<table class="table table-dark  table-borderless table-sm  table-hover">
+    <thead class="thead-dark">
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Pedido</th>
+    </thead>
+    <tbody *ngFor="let cliente of clientes">
+        <tr>
+            <td>{{cliente.id}}</td>
+            <td>{{cliente.nombre}}</td>
+            <td>{{cliente.pedido}}</td>
+        </tr>
+    </tbody>
+</table>
+
